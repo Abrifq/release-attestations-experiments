@@ -1,0 +1,8 @@
+name: "Echo event to output"
+on: "release"
+jobs:
+  log-event:
+    runs-on: ubuntu-slim
+    steps:
+      - name: read
+        run: "cat $GITHUB_EVENT_PATH"
