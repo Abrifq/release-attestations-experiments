@@ -1,0 +1,23 @@
+{
+  "name": "@abrifq/release-attestations-experiments",
+  "version": "0.0.1",
+  "description": "Testing trusted releases and release attestations. Ignore this package.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abrifq/release-attestations-experiments.git"
+  },
+  "author": "Arda \"Abrifq\" Aydın <arda.aydin@operationsilkscarf.com> (https://github.com/Abrifq)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Abrifq/release-attestations-experiments/issues"
+  },
+  "homepage": "https://github.com/Abrifq/release-attestations-experiments#readme",
+  "type": "module",
+  "files": [
+    "src/index.js"
+  ]
+}
