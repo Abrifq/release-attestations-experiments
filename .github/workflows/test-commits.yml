@@ -1,0 +1,10 @@
+name: "Test commits"
+on: push
+jobs: 
+    test-commit:
+        runs-on: ubuntu-slim
+        steps:
+          - name: "install deps"
+            run: "npm ci"
+          - name: "run npm-test"
+            run: "npm test"
